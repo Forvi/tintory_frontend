@@ -1,8 +1,14 @@
-# React + Vite
+# Frontend for Tintory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Клиентская часть сервиса для генерации цветовых палитр.
 
-Currently, two official plugins are available:
+Реализована лишь часть функционала.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Используемый стек:
+- JavaScript
+- Vite
+- React
+
+Для запуска достаточно скачать проект, указать в ``./src/services/generateColor.js`` актуальный маршрут запроса и запустить его в режиме разработки "npm run dev". 
+
+[Tintory Backend](https://github.com/Forvi/Tintory)
